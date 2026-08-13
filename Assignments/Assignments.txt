@@ -14,7 +14,6 @@ Assignments:
    - Remote workflows: push, pull, fetch, remote add
    - GitHub workflows: creating repositories, pull requests, code reviews, forking
    - .gitignore, git stash, git revert vs git reset
-   - Practice: create a repo, make feature branches, open a pull request, and merge it
 
 3. In-Memory Hospital Management CRUD
    - Design entities: Patient, Doctor, Appointment (fields, relationships)
@@ -24,5 +23,3 @@ Assignments:
        - Read: view/search records by ID or other fields
        - Update: modify existing record details
        - Delete: remove a record
-   - Add basic validation (e.g., unique IDs, required fields)
-   - Optional: simple menu-driven console interface to interact with the CRUD operations
