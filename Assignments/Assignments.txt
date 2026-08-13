@@ -1,0 +1,28 @@
+Assignments:
+
+1. Study C++ STL (Standard Template Libraries)
+   - Containers: vector, list, deque, set, multiset, map, multimap, unordered_map, unordered_set, stack, queue, priority_queue
+   - Iterators: begin/end, iterator categories, reverse iterators
+   - Algorithms: sort, find, binary_search, accumulate, count, reverse, unique, min/max_element
+   - Function objects & Lambdas: comparators, custom sorting with lambdas
+   - Pair & Tuple usage
+   - Practice: implement small programs using each container and at least 5 algorithms
+
+2. Study Git and GitHub
+   - Git basics: init, clone, add, commit, status, log, diff
+   - Branching: branch, checkout/switch, merge, rebase, resolving merge conflicts
+   - Remote workflows: push, pull, fetch, remote add
+   - GitHub workflows: creating repositories, pull requests, code reviews, forking
+   - .gitignore, git stash, git revert vs git reset
+   - Practice: create a repo, make feature branches, open a pull request, and merge it
+
+3. In-Memory Hospital Management CRUD
+   - Design entities: Patient, Doctor, Appointment (fields, relationships)
+   - Implement in-memory data store (no database, use collections/lists)
+   - CRUD operations:
+       - Create: add new patient/doctor/appointment records
+       - Read: view/search records by ID or other fields
+       - Update: modify existing record details
+       - Delete: remove a record
+   - Add basic validation (e.g., unique IDs, required fields)
+   - Optional: simple menu-driven console interface to interact with the CRUD operations
