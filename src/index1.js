@@ -39,9 +39,7 @@ app.get('/patients/:id',(c)=>{
 
 app.post('/patients', async (c) => {
     const body = await c.req.json();
-});
-
-const patient = {
+    const patient = {
     id: patients.length + 1,
     name: body.name,
     age: body.age,
@@ -51,6 +49,9 @@ const patient = {
 patients.push(patient);
 
 return c.json(patient,201);
+});
+
+
 
 app.put("/patients/:id", async(c)=>{
     const patientId = parseInt(c.req.param('id'));
@@ -69,13 +70,10 @@ app.put("/patients/:id", async(c)=>{
 app.delete("/patients/:id", (c) => {
   const patientId = parseInt(c.req.param('id'));
   const patient = patients.find((p) => p.id === patientId); 
-  console.log(patientId);
-  console.log(patient);
   if(!patient){
     return c.json({error: 'User not found'}, 404);
   }
   patients = patients.filter((p) => p.id !== patientId);
-  console.log(patients);
   return c.json({ message: 'User deleted successfully', remaining: patients });
 });
 
