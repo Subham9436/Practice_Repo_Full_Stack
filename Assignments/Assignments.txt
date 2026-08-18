@@ -23,3 +23,12 @@ Assignments:
        - Read: view/search records by ID or other fields
        - Update: modify existing record details
        - Delete: remove a record
+
+4. Study Arrow Function and how it is different from regular function 
+   - Its use case
+   - Where we use it 
+   - Performance Metrics
+
+5. Folder Structure Change index2.js (DB Connection File)
+   - Implement DB for it.
+   - Write CRUD Operations for it.
