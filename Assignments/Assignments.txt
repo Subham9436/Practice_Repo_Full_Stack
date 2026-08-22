@@ -32,3 +32,21 @@ Assignments:
 5. Folder Structure Change index2.js (DB Connection File)
    - Implement DB for it.
    - Write CRUD Operations for it.
+6. Study JavaScript Fundamentals
+   - Variables and data types: let, const, strings, numbers, booleans, arrays, objects, null, and undefined
+   - Control flow: if/else, switch, for loops, while loops, and ternary operators
+   - Functions: regular functions, arrow functions, parameters, return values, and scope
+   - Array methods: map, filter, reduce, find, some, every, includes, sort, and forEach
+   - Object and string operations, destructuring, spread/rest operators, and template literals
+   - Practice: write small programs using each concept and explain the output
+
+7. JavaScript Basic DSA Practice
+   - Arrays: find the largest and smallest values, reverse an array, remove duplicates, and rotate an array
+   - Strings: reverse a string, count vowels and characters, find the first non-repeating character, and check whether a string is a palindrome
+   - Anagram: write a function that checks whether two strings are anagrams of each other; ignore spaces, punctuation, and letter casing
+   - Palindrome: write a function that checks whether a string or number reads the same forward and backward
+   - Searching: implement linear search and binary search on a sorted array
+   - Sorting: implement bubble sort, selection sort, and insertion sort without using the built-in sort method
+   - Stack and queue: implement basic push/pop and enqueue/dequeue operations using arrays
+   - Recursion: calculate factorial and Fibonacci numbers, and explain the base case
+   - For every solution, include at least three test cases, handle empty input, and state the time and space complexity
