@@ -28,4 +28,3 @@ let d = 2;
 rotateArr(arr, d);
 
 console.log(arr);
-        
